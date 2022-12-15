@@ -68,8 +68,10 @@ def angka_7():
     e.right(120)
     e.forward(135)
 
+
+#inti
 t.penup()
-t.goto(-240,-100)
+t.goto(-210,-100)
 t.pendown()
 huruf_s()
 
@@ -79,7 +81,7 @@ l.pendown()
 angka_9()
 
 u.penup()
-u.goto(200,80)
+u.goto(170,80)
 u.pendown()
 huruf_D()
 
@@ -93,15 +95,5 @@ r.goto(-40,50)
 r.pendown()
 angka_3()
 
-t.penup()
-u.penup()
-r.penup()
-l.penup()
-e.penup()
-t.goto(0,350)
-u.goto(0,350)
-r.goto(0,350)
-l.goto(0,350)
-e.goto(0,350)
 
 s.exitonclick()
